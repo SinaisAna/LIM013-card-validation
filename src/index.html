@@ -6,9 +6,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+   
+      <!--PANTALLA 1 -->
+    <div id="cabezera"><h1>VERIFICADOR DE TARJETAS</h1>
+
+      <h2>Bienvenido usuario al verificador de tarjeta digital mas fácil rápido y confiable, por favor ingresa tu nombre para continuar;</h2>
+
+      <img  class="imagen" src="tarjeta.jpeg"><br>
+
+      <input type="text" class="caja" id="ingresatunombre" placeholder="ingresa nombre">
+
+      <button type="button" class="boton"  onclick="nombrePersona()">validar</button>
+          
+    
+    </div>
+         
+    <!--PANTALLA 2 -->
+
+
+    <div id="ingreso" class="ocultar">
+
+      <div id="mensaje1"></div>
+            
+       <input type="text" class="caja" id="numtarjeta" placeholder="ingresa numero">
+  
+       <button type="button" class="boton" onclick="botonvalidar()">validar</button>
+    </div>
     <script src="index.js" type="module"></script>
+
   </body>
 </html>

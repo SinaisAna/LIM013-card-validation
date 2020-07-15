@@ -1,11 +1,15 @@
 const validator = {
   // ...
-  function isValid(creditCardNumber){
+  validador.isValid(creditCardNumber){
+    var suma= 0;
+    for (i =0;i<creditCardNumber.length; i++){
+
+    }
 
   }
-  maskify(): sting{
+  validador.maskify(creditCardNumber): sting{
 
   }
-};
+;
 
 export default validator;
