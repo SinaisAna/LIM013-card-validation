@@ -18,13 +18,13 @@
 
  ## Fotos de los avances :grinning:
 
-! [] (img.rea/1.jpg)
+![] (img.rea./1.jpg)
 
-! [] (img.rea/2.jpg)
+![] (img.rea./2.jpg)
 
-! [] (img.rea/3.jpg)
+![] (img.rea./3.jpg)
 
-! [] (img.rea/4.jpg)
+![](img.rea./4.jpg)
 
 
 
