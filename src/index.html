@@ -5,20 +5,22 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="pantalla">
    
       <!--PANTALLA 1 -->
-    <div id="cabezera"><h1>VERIFICADOR DE TARJETAS</h1>
+    <div id="cabecera"><h1>VERIFICADOR DE TARJETAS</h1>
 
       <h2>Bienvenido usuario al verificador de tarjeta digital mas fácil rápido y confiable, por favor ingresa tu nombre para continuar;</h2>
+      
+         <img  class="imagen" src="img/1.jpg">
+    <br>
+      <input type="text" class="caja" id="nombre">
+     
 
-      <img  class="imagen" src="tarjeta.jpeg"><br>
+      <button class="boton"  id="ingresar">validar</button>
 
-      <input type="text" class="caja" id="ingresatunombre" placeholder="ingresa nombre">
-
-      <button type="button" class="boton"  onclick="nombrePersona()">validar</button>
+      <div id="obigatorioNombre"></div>
           
-    
     </div>
          
     <!--PANTALLA 2 -->
@@ -26,11 +28,13 @@
 
     <div id="ingreso" class="ocultar">
 
-      <div id="mensaje1"></div>
+      <div id="total"></div>
+
+      <div id="obligatorioTarjeta"></div>
             
        <input type="text" class="caja" id="numtarjeta" placeholder="ingresa numero">
   
-       <button type="button" class="boton" onclick="botonvalidar()">validar</button>
+       <button  class="boton" id="botonValidar">validador</button>
     </div>
     <script src="index.js" type="module"></script>
 
