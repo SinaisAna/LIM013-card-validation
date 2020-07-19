@@ -19,28 +19,17 @@
  ![](imagenes/1_1.jpg)
 
  ## Fotos de los avances :grinning:
+![](imagenes/1.jpg)
 
-<<<<<<< HEAD
- ![](imagenes/1.jpg)
+![](imagenes/2.jpg)
 
- ![](imagenes/2.jpg)
+![](imagenes/3.jpg)
 
- ![](imagenes/3.jpg)
-
- ![](imagenes/4.jpg)
+![](imagenes/4.jpg)
 
 
 
  Este empieza con una bienvenida dandote un pequeño resumen de como puedes usarla, lo importante es colocar tu nombre, de ahi te pide el numero de tarjeta que vas a verificar dandote una de las dos alternativas;
-=======
-![] (1.jpg)
-
-![] (2.jpg)
-
-![] (3.jpg)
-
-![] (4.jpg)
->>>>>>> 0f9a603beb4822e4c49e73f488a63789af41db53
 
  1.Tu tarjate es valida (quiere decir que si posees una tarjeta existente).
 
@@ -57,8 +46,4 @@ Mi squad me dio buen visto por los primeros bocetos mostrados, solo debia darle 
 
 ![](imagenes/6.jpg)
 
-<<<<<<< HEAD
 ![](imagenes/7.jpg)
-=======
-## Prototipo Final :champagne:
->>>>>>> 0f9a603beb4822e4c49e73f488a63789af41db53
