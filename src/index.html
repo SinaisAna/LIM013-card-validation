@@ -6,14 +6,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="pantalla">
-   
-      <!--PANTALLA 1 -->
-    <div id="cabecera"><h1>VERIFICADOR DE TARJETAS</h1>
+  
+  <!--PANTALLA 1 -->
+    <div id="cabecera" class="total"><h1>VERIFICADOR DE TARJETAS</h1><br>
 
-      <h2>Bienvenido usuario al verificador de tarjeta digital mas fácil rápido y confiable, por favor ingresa tu nombre para continuar;</h2>
+      <img  class="imagen" src="img/1.jpg"><br>
+
+      <h2>Bienvenido usuario al verificador de tarjeta digital mas fácil rápido y confiable, por favor ingresa tu nombre para continuar;</h2><br>
       
-         <img  class="imagen" src="img/1.jpg">
-    <br>
+         
+    
       <input type="text" class="caja" id="nombre">
      
 
@@ -26,17 +28,32 @@
     <!--PANTALLA 2 -->
 
 
-    <div id="ingreso" class="ocultar">
-
+    <div id="ingreso" class="ocultar total">
+      <div id="innert"></div>
       <div id="total"></div>
 
       <div id="obligatorioTarjeta"></div>
+         <div id="numerico">
             
-       <input type="text" class="caja" id="numtarjeta" placeholder="ingresa numero">
+       <input type="text" class="caja" id="numtarjeta"  placeholder="ingresa numero">
   
        <button  class="boton" id="botonValidar">validador</button>
-    </div>
-    <script src="index.js" type="module"></script>
+       </div>
+       <div id="visa" class="tarjeta ocultar">
+          <img  class="tarjeta-imagen" src="img/visa.jpg">
+          <div class="numero-tarjeta" id="numero-tarjeta1"></div>
+          <div class="nombre-tarjeta" id="nombre-tarjeta1"></div>
+ 
+       </div>
+       <div id="master" class="tarjeta ocultar">
+          <img  class="tarjeta-imagen" src="img/master.jpg">
+          <div class="numero-tarjeta" id="numero-tarjeta2"></div>
+          <div class="nombre-tarjeta" id="nombre-tarjeta2"></div>
+ 
+       </div>
 
+    </div>
+     <button  class="boton ocultar" id="volver">volver a ingresar</button>
+    <script src="index.js" type="module"></script>
   </body>
 </html>

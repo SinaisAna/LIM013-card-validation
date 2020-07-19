@@ -1,16 +1,49 @@
 *{
- margin:0px;
- padding:0px;
+ 	margin:0px;
+ 	padding:0px;
 
 }
 
+h1{
+	 font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+	 font-size: 50px;
+}
+.tarjeta{
+	
+	position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+.tarjeta-imagen{
+	border-radius: 25px;
+	
+}
+.numero-tarjeta{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    color:white;
+    font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+    font-size: 24px;
+}
+.nombre-tarjeta{
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    color:white;
+    font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+    font-size: 24px;
+}
 .pantalla{
-border-radius:25px;
- width:90%;
- height:200px;
- margin:50px 50px;
- padding:30px;
- text-align: center;
+	background-image: url("img/imagen.jpg");
+ 	border-radius:25px;
+	 width:90%;
+ 	height:200px;
+ 	margin:50px 50px;
+ 	padding:10px;
+ 	text-align: center;
+ 	font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
 }
 
 .ocultar{
@@ -18,19 +51,42 @@ border-radius:25px;
 }
 
 .boton{
-  padding: 7px 27px;
-  border-radius: 12px;
-  border: solid 1px #ccc;
+  	padding: 7px 27px;
+  	border-radius: 12px;
+ 	border: solid 1px #ccc;
+ 	outline:0;
 }
 
 .caja{
     padding: 7px 27px;
-  border-radius: 11px;
-  border: solid 1px #ccc;
-  border-color: blue;
+  	border-radius: 11px;
+  	border: solid 1px #ccc;
+  	border-color: white;
+    outline:0;
 }
 
 .imagen{
-  width: 300px; height: 200px;
-   border-radius: 10px;
+  	width: 300px; height: 200px;
+    border-radius: 25px;
+}
+
+.total{
+	width:700px;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(213,213,213,0.43040966386554624) 0%, rgba(131,140,194,1) 47%, rgba(255,255,255,1) 100%);;
+	padding: 35px 45px 35px 50px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 9px;
+	font-size: 20px;
+
+	
+}
+.resultado-rojo{
+	font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+    color: red;
+}
+.resultado-verde{
+	font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+    color: green;
 }
