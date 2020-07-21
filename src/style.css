@@ -11,8 +11,8 @@ h1{
 .tarjeta{
 	
 	position: relative;
-    display: inline-block;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
 
 }
 .tarjeta-imagen{
@@ -37,13 +37,13 @@ h1{
 }
 .pantalla{
 	background-image: url("img/imagen.jpg");
- 	border-radius:25px;
-	 width:90%;
+	width:90%;
  	height:200px;
  	margin:50px 50px;
  	padding:10px;
  	text-align: center;
  	font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  
 }
 
 .ocultar{
@@ -73,13 +73,12 @@ h1{
 .total{
 	width:700px;
 	background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(213,213,213,0.43040966386554624) 0%, rgba(131,140,194,1) 47%, rgba(255,255,255,1) 100%);;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(213,213,213,0.43040966386554624) 0%, rgba(131,140,194,1) 47%, rgba(255,255,255,1) 100%);;
 	padding: 35px 45px 35px 50px;
 	margin: auto;
 	margin-top: 20px;
 	border-radius: 9px;
 	font-size: 20px;
-
 	
 }
 .resultado-rojo{

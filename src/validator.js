@@ -1,15 +1,13 @@
 const validator = {
   // ...
   isValid: function(creditCardNumber){
-
     var suma= 0;
     for(var i = 0;i<creditCardNumber.length; i++){
       var digito =parseInt(creditCardNumber[i]);
-      console.log("digito",digito);
-        console.log(i);
+      
+        
       if((i+1)%2!=0){
         
-        console.log("entro");
         digito=digito*2;
         if(digito>9){ 
           let digito1 = parseInt(digito/10);
@@ -20,7 +18,7 @@ const validator = {
         
       }
       suma=suma+digito;
-      console.log(suma);
+      
     }
   if (suma%10==0){
       return true;
