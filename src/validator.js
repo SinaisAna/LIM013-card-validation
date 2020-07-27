@@ -1,9 +1,9 @@
 const validator = {
   // ...
   isValid: function(creditCardNumber){
-    var suma= 0;
-    for(var i = 0;i<creditCardNumber.length; i++){
-      var digito =parseInt(creditCardNumber[i]);
+    let suma= 0;
+    for(let i = 0;i<creditCardNumber.length; i++){
+      let digito =parseInt(creditCardNumber[i]);
       
         
       if((i+1)%2!=0){
@@ -15,7 +15,7 @@ const validator = {
           digito=digito1+digito2;
           
         }
-        
+
       }
       suma=suma+digito;
       
@@ -29,10 +29,10 @@ const validator = {
 
 
 maskify: function(creditCardNumber){
-  var longitudNumero=creditCardNumber.length;
-  var resultado="";
+  const longitudNumero=creditCardNumber.length;
+  let resultado="";
   if(longitudNumero>4){
-    for(var i = 0;i<creditCardNumber.length; i++){
+    for(let i = 0;i<creditCardNumber.length; i++){
               
       if(i>=creditCardNumber.length-4){
         resultado+=creditCardNumber[i];
