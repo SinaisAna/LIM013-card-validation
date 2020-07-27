@@ -1,6 +1,6 @@
-# Tarjeta de credito valida :technologist: 	:credit_card:
-
-##Objetivo del programa :pencil:
+ # Tarjeta de credito valida :technologist: 	:credit_card: 
+ 
+ ## Objetivo del programa :pencil:
 
 
  El fin de este programa es poder validar tarjetas de credito, a traves del algoritmo de luhn. con el fin de que sea adcesible a todo tipo de personas posean una tarjeta dando una experiencia dinamica.
@@ -36,11 +36,13 @@
  2.Tu tarjeta es invalida (colocaste un numero mal, o no existe esa tarjeta). 
 
 
-## Feedback :pushpin:
+ ## Feedback :pushpin:
 
 Mi squad me dio buen visto por los primeros bocetos mostrados, solo debia darle mas contenido para asi tener mas personalidad la paguina wed, dando asi mas confianza al usuario.
 
-## Prototipo Final :champagne:
+ ## Prototipo Final :champagne:
+
+El validador tiene la capacidad de reconocer tarjetas;VISA,MASTERCARD,DINNERS,DAINERS,JBC,AMERICAN EXPRESS y DISCOVER.
 
 ![](imagenes/5.jpg)
 

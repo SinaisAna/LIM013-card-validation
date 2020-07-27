@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
+    <link rel="icon" type="image/x-icon" href="img/icono.jpg">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="pantalla">
@@ -13,12 +14,9 @@
       <img  class="imagen" src="img/1.jpg"><br>
 
       <h2>Bienvenido usuario al verificador de tarjeta digital mas fácil rápido y confiable, por favor ingresa tu nombre para continuar;</h2><br>
-      
-         
-    
+
       <input type="text" class="caja" id="nombre">
      
-
       <button class="boton"  id="ingresar">validar</button>
 
       <div id="obigatorioNombre"></div>
@@ -33,12 +31,19 @@
       <div id="total"></div>
 
       <div id="obligatorioTarjeta"></div>
-         <div id="numerico">
-            
-       <input type="number" class="caja" id="numtarjeta"  placeholder="ingresa numero">
-  
-       <button  class="boton" id="botonValidar">validador</button>
-     </div>
+      <div id="numerico">
+          
+         <input type="number" class="caja" id="numtarjeta"  placeholder="ingresa numero">
+        <button  class="boton" id="botonValidar">validador</button>
+        <div class="icon">
+        <img  src="img/iconMaster.png"> 
+        <img  src="img/iconVisa.png">
+        <img  src="img/iconAmerica.png">
+        <img  src="img/iconJcb.png">
+        <img  src="img/iconDiscover.png">
+        <img  src="img/iconDinner.png">
+       </div>
+      </div>
        <div id="visa" class="tarjeta ocultar">
           <img  class="tarjeta-imagen" src="img/visa.jpg">
           <div class="numero-tarjeta" id="numero-tarjeta1"></div>
@@ -80,12 +85,6 @@
           <div class="nombre-tarjeta" id="nombre-tarjeta6"></div>
  
        </div>
-
-
-      
-
-      
-
     </div>
      <button  class="boton ocultar" id="volver">volver a ingresar</button>
     <script src="index.js" type="module"></script>

@@ -1,4 +1,5 @@
 *{
+
  	margin:0px;
  	padding:0px;
 
@@ -88,4 +89,12 @@ h1{
 .resultado-verde{
 	font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
     color: green;
+}
+
+.icon{
+    width:500px; 
+    height: 100px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }

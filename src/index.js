@@ -1,9 +1,6 @@
 import validator from './validator.js';
 
-const ingresar=document.getElementById("ingresar");
-ingresar.onclick=saludoMensaje;
-
-function saludoMensaje(){
+const saludoMensaje = () => {
 	
 	let nombre=document.getElementById("nombre").value;
 	if(nombre==""){
@@ -17,10 +14,10 @@ function saludoMensaje(){
 		tarjeta.onclick=evaluacion;
 	}
 
-}
+};
 
 
-function evaluacion(){
+const evaluacion = () => {
 	
 	let nombre=document.getElementById("nombre").value;
 	let input=document.getElementById("numtarjeta").value;
@@ -101,11 +98,13 @@ function evaluacion(){
 	ultimo.onclick=volver;
 	document.getElementById("volver").classList.remove('ocultar');
 	
-}
+	}
   
   
-}
-function volver(){
+};
+const volver = () => { 
+
+    document.getElementById("numtarjeta").value="";
 	document.getElementById("visa").classList.add('ocultar');
 
 	document.getElementById("master").classList.add('ocultar');
@@ -120,7 +119,11 @@ function volver(){
 
 	document.getElementById("numerico").classList.remove('ocultar');
 
-	let inputTodo=document.getElementById("total");
-	inputTodo.innerHTML="<p></p>";
-} 
+	let inputTodo = document.getElementById("total");
+	inputTodo.innerHTML = "<p></p>";
+};
+
+const ingresar=document.getElementById("ingresar");
+ingresar.addEventListener("click",saludoMensaje);
+
 //}
