@@ -45,7 +45,7 @@ maskify: function(creditCardNumber){
     resultado=creditCardNumber
   }
   return resultado;
-}
+},
 
 
 }
